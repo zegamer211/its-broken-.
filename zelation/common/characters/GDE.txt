@@ -1,0 +1,16 @@
+ GDE_great_leader={
+    name=firejason
+    potraits={
+        civillian={
+            large=_gfx_leader_portraits.gfx
+        }
+    }
+    country_leader={
+        ideology neutrality
+        traits= { conservative_grandee}
+        expire= "2026.1.1.1"
+        id = -1
+    }
+ }
+
+ 

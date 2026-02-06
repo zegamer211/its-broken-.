@@ -1,0 +1,6 @@
+spritetypes = {
+    spritestype {
+        name = "GFX-potrait_GDE_character"
+        texturefile = "gfx/leaders/GDE/firejason.dds"
+    }
+}

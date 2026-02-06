@@ -1,0 +1,60 @@
+division_template = {
+    name = "infrantry division"
+
+    regiments = {
+        infrantry = { x = 0 y = 0}
+        infrantry = { x = 0 y = 1}
+        infrantry = { x = 0 y = 2}
+        infrantry = { x = 1 y = 0}
+        infrantry = { x = 1 y = 1}
+        infrantry = { x = 1 y = 2}
+    }
+    support = {
+        engineer = [ x = 0 y = 0]
+        artillery = { x = 0 y = 1}
+    }
+}
+
+division_template = {
+    name = "Guard of the fire"
+
+    regiments = {
+        infrantry = { x = 0 y = 0}
+        infrantry = { x = 0 y = 1}
+        infrantry = { x = 0 y = 2}
+        infrantry = { x = 1 y = 0}
+        infrantry = { x = 1 y = 1}
+        infrantry = { x = 1 y = 2}
+        infrantry = { x = 2 y = 0}
+        infrantry = { x = 2 y = 1}
+        infrantry = { x = 2 y = 2}
+    }
+    support = {
+        engineer = [ x = 0 y = 0]
+        artillery = { x = 0 y = 1}
+    }
+
+    division_template = {
+        name = "Cavalry Division"
+
+        regiments = {
+            cavalry = { x = 0 y = 0}
+            cavalry = { x = 0 y = 1}
+            cavalry = { x = 0 y = 2}
+            cavalry = { x = 0 y = 3}
+        }
+    }
+}
+
+units = {
+    division = {
+    name = "1st infrantry Division"
+    location = 6332
+    division_template = "Guard of the fire"
+    start_experience_factor = 0.3} 
+    division = {
+    name = "2st infrantry Division"
+    location = 6375
+    division_template = "Guard of the fire"
+    start_experience_factor = 0.5} 
+}

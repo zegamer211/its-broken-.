@@ -1,0 +1,1 @@
+GDE = "countries/KaiserReic.txt"

@@ -1,0 +1,38 @@
+
+capital 763
+
+oob = "GDE_1936"
+
+set_convoys = 20
+set_research_slots = 4  
+
+# Starting tech
+set_technology = {
+    infrantry_weapons = 1
+    infrantry_weapons1 = 1
+    gw_artillery = 1
+    tech_trucks = 1
+    tech_support = 1
+    tech_engineers = 1
+    tech_recon = 1
+    basic_train = 1
+}
+
+set_politics = {
+    ruling_party = neutral
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    democratic = 23.5
+    facism = 15.5
+    comunism = 20
+    neutrality = 41
+}
+
+recuit_chracter = GDE_great_leader
+recuit_chracter = GDE_field_marshal
+recuit_chracter = GDE_general
+recuit_chracter = GDE_admiral
+recuit_chracter = GDE_advisor_character
